@@ -10,7 +10,7 @@ class Solution {
                     return new int[] {p1, p2}; 
                 }
             }
-        }
+        }   
         return null;
     }
 }
@@ -23,7 +23,7 @@ class Solution {
 
         for (int p = 0; p < nums.length; p++) {
             Integer currentMapVal = numsMap.get(nums[p]);
-
+            
             if (currentMapVal != null && currentMapVal >= 0) {
                 return new int[] {currentMapVal, p};
             }
